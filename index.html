@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym website</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url(dddd.jpg);
+          
+
+
+        }
+        #logo{
+         
+          display: inline;
+            position: absolute;
+            left: 14px;
+            top: 5px;
+        }
+        #navi{
+          
+          margin: auto;
+          width: 500px;
+          display: block;
+        
+          margin-top: 5px;
+        }
+        #search{
+            display: inline;
+            position: absolute;
+            right: 14px;
+            top: 5px;
+          
+           
+        }
+        #navi li {
+            display: inline-block;
+            padding: 14px;
+            font-size: 14px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+           
+        
+        }
+        #navi li a{
+            text-decoration: none;
+            color: rgb(14, 13, 11);
+            font-family: fantasy;
+            font-weight: 300;
+        }
+        #navi li a:hover,#navi li a.active{
+            color: gray;
+            text-decoration: underline;
+        }
+        img{
+            width: 80px;
+            height: 60px;
+        }
+        button{
+            background-color: rgb(235, 214, 171);
+            border: 1px solid white;
+            border: radius 80px; ;
+        }
+        button:hover{
+            cursor: pointer;
+            color: rgb(240, 9, 66);
+        }
+        #container{
+            border: 2px solid black;
+            margin: 100px;
+            padding:50px;
+        }
+        #rrr input{
+            display: block;
+            margin: 10px auto;
+            padding: 1px;
+            border: 2px solid rgb(10, 9, 9);
+            border-radius: 50px;
+            background-color: rgb(221, 215, 190);
+            width: 23%;
+            text-align: center;
+            font-family: cursive;
+
+        }
+        #eee{
+            display: block;
+            width: 23%;
+            margin: auto;
+        }
+        h1{
+            font-family: cursive;
+           color: rgb(8, 6, 10);
+            text-align: center;
+        }
+      
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+     <div id="logo">
+         <img src="download.jpg">
+
+     </div>
+         
+     <div id="navi">
+         <ul id=ggg>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">fitness calculator</a></li>
+          <li><a href="#">Contact us</a></li>
+         </ul>
+ 
+     </div>
+     <div id="search">
+         <button >call us</button>
+         <button>email</button>
+
+     </div>
+    </header>
+    <div id="container">
+        <h1>Welcome to owr gym</h1>
+        <form action="form.php">
+          <div id="rrr">
+            <input type="text" placeholder="Enter your name">
+         </div>
+          <div id="rrr">
+            <input type="text" placeholder="Phone Number">
+          </div>
+           <div id="rrr">
+            <input type="text" placeholder="want to join gym">
+           </div> 
+            <div id="rrr">
+                <input type="text" placeholder="sex">
+            </div >
+
+            <button id="eee">submit</button>
+        </form>
+    </div>
+
+    
+</body>
+</html>
+
